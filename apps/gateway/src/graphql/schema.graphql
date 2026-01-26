@@ -1,0 +1,8 @@
+type AiSearchResult {
+  score: Float!
+  product: Product!
+}
+
+extend type Query {
+  aiSearch(prompt: String!): [AiSearchResult!]!
+}
