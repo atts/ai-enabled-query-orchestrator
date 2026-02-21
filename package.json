@@ -2,7 +2,10 @@
   "name": "@ecommerce-platform/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx run-many --target=serve --projects=discovery,products,cart,inventory --parallel",
+    "dev:gateway:inspect": "NODE_OPTIONS=--inspect nx serve gateway"
+  },
   "private": true,
   "dependencies": {
     "@apollo/gateway": "^2.12.2",
