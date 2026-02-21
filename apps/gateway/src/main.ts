@@ -10,6 +10,8 @@ const gateway = new ApolloGateway({
       { name: 'cart', url: 'http://localhost:4003/graphql' },
       { name: 'discovery', url: 'http://localhost:4004/graphql' },
     ],
+    // Retry composing every 5 s so gateway and subgraphs can start in parallel
+    pollIntervalInMs: 5000,
   }),
 });
 

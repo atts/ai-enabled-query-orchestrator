@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "nx run-many --target=serve --projects=discovery,products,cart,inventory --parallel",
-    "dev:gateway:inspect": "NODE_OPTIONS=--inspect nx serve gateway"
+    "dev": "nx run-many --target=serve --projects=products,inventory,cart,discovery --parallel --skip-nx-cache",
+    "dev:gateway": "nx serve gateway --skip-nx-cache",
+    "dev:all": "nx run-many --target=serve --projects=products,inventory,cart,discovery,gateway --parallel --skip-nx-cache",
+    "dev:gateway:inspect": "NODE_OPTIONS=--inspect nx serve gateway --skip-nx-cache",
+    "reset": "nx reset"
   },
   "private": true,
   "dependencies": {
