@@ -1,0 +1,277 @@
+[
+  {
+    "entity": "Product",
+    "ownerSubgraph": "products",
+    "missingFields": [
+      {
+        "name": "sustainabilityScore",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly electronics with carbon footprint data\""
+      },
+      {
+        "name": "carbonFootprintKg",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly electronics with carbon footprint data\""
+      },
+      {
+        "name": "energyEfficiencyRating",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly electronics with carbon footprint data\""
+      },
+      {
+        "name": "recycledMaterialsPct",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly electronics with carbon footprint data\""
+      }
+    ],
+    "sdl": "extend type Product {\n  sustainabilityScore: String\n  carbonFootprintKg: String\n  energyEfficiencyRating: String\n  recycledMaterialsPct: String\n}",
+    "resolverStub": "export const Product = {\n  sustainabilityScore: async (parent) => {\n    // TODO: implement sustainabilityScore\n    return null;\n  },\n  carbonFootprintKg: async (parent) => {\n    // TODO: implement carbonFootprintKg\n    return null;\n  },\n  energyEfficiencyRating: async (parent) => {\n    // TODO: implement energyEfficiencyRating\n    return null;\n  },\n  recycledMaterialsPct: async (parent) => {\n    // TODO: implement recycledMaterialsPct\n    return null;\n  }\n};",
+    "id": "delta-1771674222876",
+    "createdAt": "2026-02-21T11:43:42.876Z",
+    "status": "pr_open",
+    "prUrl": "https://github.com/atts/ai-enabled-query-orchestrator/pull/2",
+    "prBranch": "schema-delta/delta-1771674222876"
+  },
+  {
+    "entity": "Product",
+    "ownerSubgraph": "products",
+    "missingFields": [
+      {
+        "name": "sustainabilityScore",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "ecoFriendlyRating",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "carbonFootprint",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "recyclableMaterials",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "organicCertification",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "energyEfficiencyRating",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "environmentalImpactScore",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "sustainabilityCertifications",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "biodegradable",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "renewableMaterialsPercentage",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      }
+    ],
+    "sdl": "extend type Product {\n  sustainabilityScore: String\n  ecoFriendlyRating: String\n  carbonFootprint: String\n  recyclableMaterials: String\n  organicCertification: String\n  energyEfficiencyRating: String\n  environmentalImpactScore: String\n  sustainabilityCertifications: String\n  biodegradable: String\n  renewableMaterialsPercentage: String\n}",
+    "resolverStub": "export const Product = {\n  sustainabilityScore: async (parent) => {\n    // TODO: implement sustainabilityScore\n    return null;\n  },\n  ecoFriendlyRating: async (parent) => {\n    // TODO: implement ecoFriendlyRating\n    return null;\n  },\n  carbonFootprint: async (parent) => {\n    // TODO: implement carbonFootprint\n    return null;\n  },\n  recyclableMaterials: async (parent) => {\n    // TODO: implement recyclableMaterials\n    return null;\n  },\n  organicCertification: async (parent) => {\n    // TODO: implement organicCertification\n    return null;\n  },\n  energyEfficiencyRating: async (parent) => {\n    // TODO: implement energyEfficiencyRating\n    return null;\n  },\n  environmentalImpactScore: async (parent) => {\n    // TODO: implement environmentalImpactScore\n    return null;\n  },\n  sustainabilityCertifications: async (parent) => {\n    // TODO: implement sustainabilityCertifications\n    return null;\n  },\n  biodegradable: async (parent) => {\n    // TODO: implement biodegradable\n    return null;\n  },\n  renewableMaterialsPercentage: async (parent) => {\n    // TODO: implement renewableMaterialsPercentage\n    return null;\n  }\n};",
+    "id": "delta-1771944787740",
+    "createdAt": "2026-02-24T14:53:07.740Z",
+    "status": "pr_open",
+    "prUrl": "https://github.com/atts/ai-enabled-query-orchestrator/pull/3",
+    "prBranch": "schema-delta/delta-1771944787740"
+  },
+  {
+    "entity": "Product",
+    "ownerSubgraph": "products",
+    "missingFields": [
+      {
+        "name": "sustainabilityScore",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "ecoFriendlyRating",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "carbonFootprint",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "recyclableMaterials",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "organicCertification",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "environmentalImpactRating",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "sustainableMaterials",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "energyEfficiencyRating",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "biodegradable",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      },
+      {
+        "name": "ecoLabels",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me eco-friendly sustainable products\""
+      }
+    ],
+    "sdl": "extend type Product {\n  sustainabilityScore: String\n  ecoFriendlyRating: String\n  carbonFootprint: String\n  recyclableMaterials: String\n  organicCertification: String\n  environmentalImpactRating: String\n  sustainableMaterials: String\n  energyEfficiencyRating: String\n  biodegradable: String\n  ecoLabels: String\n}",
+    "resolverStub": "export const Product = {\n  sustainabilityScore: async (parent) => {\n    // TODO: implement sustainabilityScore\n    return null;\n  },\n  ecoFriendlyRating: async (parent) => {\n    // TODO: implement ecoFriendlyRating\n    return null;\n  },\n  carbonFootprint: async (parent) => {\n    // TODO: implement carbonFootprint\n    return null;\n  },\n  recyclableMaterials: async (parent) => {\n    // TODO: implement recyclableMaterials\n    return null;\n  },\n  organicCertification: async (parent) => {\n    // TODO: implement organicCertification\n    return null;\n  },\n  environmentalImpactRating: async (parent) => {\n    // TODO: implement environmentalImpactRating\n    return null;\n  },\n  sustainableMaterials: async (parent) => {\n    // TODO: implement sustainableMaterials\n    return null;\n  },\n  energyEfficiencyRating: async (parent) => {\n    // TODO: implement energyEfficiencyRating\n    return null;\n  },\n  biodegradable: async (parent) => {\n    // TODO: implement biodegradable\n    return null;\n  },\n  ecoLabels: async (parent) => {\n    // TODO: implement ecoLabels\n    return null;\n  }\n};",
+    "id": "delta-1771945026051",
+    "createdAt": "2026-02-24T14:57:06.051Z",
+    "status": "pr_open",
+    "prUrl": "https://github.com/atts/ai-enabled-query-orchestrator/pull/4",
+    "prBranch": "schema-delta/delta-1771945026051"
+  },
+  {
+    "entity": "Product",
+    "ownerSubgraph": "products",
+    "missingFields": [
+      {
+        "name": "popularityScore",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me popular products\""
+      },
+      {
+        "name": "rating",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me popular products\""
+      },
+      {
+        "name": "reviewCount",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me popular products\""
+      },
+      {
+        "name": "salesCount",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me popular products\""
+      }
+    ],
+    "sdl": "extend type Product {\n  popularityScore: String\n  rating: String\n  reviewCount: String\n  salesCount: String\n}",
+    "resolverStub": "export const Product = {\n  popularityScore: async (parent) => {\n    // TODO: implement popularityScore\n    return null;\n  },\n  rating: async (parent) => {\n    // TODO: implement rating\n    return null;\n  },\n  reviewCount: async (parent) => {\n    // TODO: implement reviewCount\n    return null;\n  },\n  salesCount: async (parent) => {\n    // TODO: implement salesCount\n    return null;\n  }\n};",
+    "id": "delta-1771945036081",
+    "createdAt": "2026-02-24T14:57:16.081Z",
+    "status": "pr_open",
+    "prUrl": "https://github.com/atts/ai-enabled-query-orchestrator/pull/5",
+    "prBranch": "schema-delta/delta-1771945036081"
+  },
+  {
+    "entity": "Product",
+    "ownerSubgraph": "products",
+    "missingFields": [
+      {
+        "name": "rating",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me most hated product products\""
+      },
+      {
+        "name": "reviewCount",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me most hated product products\""
+      },
+      {
+        "name": "negativeReviewCount",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me most hated product products\""
+      },
+      {
+        "name": "hateScore",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me most hated product products\""
+      },
+      {
+        "name": "averageNegativeSentiment",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me most hated product products\""
+      },
+      {
+        "name": "dislikeCount",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me most hated product products\""
+      },
+      {
+        "name": "worstRatedScore",
+        "type": "String",
+        "nullable": true,
+        "reason": "Requested via aiSearch prompt: \"show me most hated product products\""
+      }
+    ],
+    "sdl": "extend type Product {\n  rating: String\n  reviewCount: String\n  negativeReviewCount: String\n  hateScore: String\n  averageNegativeSentiment: String\n  dislikeCount: String\n  worstRatedScore: String\n}",
+    "resolverStub": "export const Product = {\n  rating: async (parent) => {\n    // TODO: implement rating\n    return null;\n  },\n  reviewCount: async (parent) => {\n    // TODO: implement reviewCount\n    return null;\n  },\n  negativeReviewCount: async (parent) => {\n    // TODO: implement negativeReviewCount\n    return null;\n  },\n  hateScore: async (parent) => {\n    // TODO: implement hateScore\n    return null;\n  },\n  averageNegativeSentiment: async (parent) => {\n    // TODO: implement averageNegativeSentiment\n    return null;\n  },\n  dislikeCount: async (parent) => {\n    // TODO: implement dislikeCount\n    return null;\n  },\n  worstRatedScore: async (parent) => {\n    // TODO: implement worstRatedScore\n    return null;\n  }\n};",
+    "id": "delta-1771945051747",
+    "createdAt": "2026-02-24T14:57:31.747Z",
+    "status": "pr_open",
+    "prUrl": "https://github.com/atts/ai-enabled-query-orchestrator/pull/6",
+    "prBranch": "schema-delta/delta-1771945051747"
+  }
+]
