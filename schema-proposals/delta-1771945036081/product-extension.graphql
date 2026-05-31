@@ -1,0 +1,15 @@
+# Auto-generated schema extension — Proposal delta-1771945036081
+# Created: 2026-02-24T14:57:16.081Z
+# Owner subgraph: products
+#
+# To apply:
+#   1. Copy the SDL below into the Product type in apps/products/src/main.ts
+#   2. Implement each resolver in the Product resolver object (see .stub.ts sibling)
+#   3. Merge this PR — new fields will be live after the next deploy
+
+extend type Product {
+  popularityScore: String
+  rating: String
+  reviewCount: String
+  salesCount: String
+}
