@@ -1,0 +1,21 @@
+# Auto-generated schema extension — Proposal delta-1771944787740
+# Created: 2026-02-24T14:53:07.740Z
+# Owner subgraph: products
+#
+# To apply:
+#   1. Copy the SDL below into the Product type in apps/products/src/main.ts
+#   2. Implement each resolver in the Product resolver object (see .stub.ts sibling)
+#   3. Merge this PR — new fields will be live after the next deploy
+
+extend type Product {
+  sustainabilityScore: String
+  ecoFriendlyRating: String
+  carbonFootprint: String
+  recyclableMaterials: String
+  organicCertification: String
+  energyEfficiencyRating: String
+  environmentalImpactScore: String
+  sustainabilityCertifications: String
+  biodegradable: String
+  renewableMaterialsPercentage: String
+}
